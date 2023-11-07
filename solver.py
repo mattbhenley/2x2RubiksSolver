@@ -30,18 +30,18 @@ def scramble_cube(cube, num_moves):
 def apply_move(cube, move):
     # Implement the logic to apply the move to the cube.
 
-def solve_first_layer(cube):
+    def solve_first_layer(cube):
     # Implement solving the first layer (e.g., one of the faces).
 
-def solve_second_layer(cube):
+        def solve_second_layer(cube):
     # Implement solving the second layer.
 
-def is_solved(cube):
+            def is_solved(cube):
     # Implement a check to verify if the cube is solved.
 
-def solve_cube(cube):
+                def solve_cube(cube):
     # Solve the first layer.
-    solve_first_layer(cube)
+                    solve_first_layer(cube)
 
     # Solve the second layer.
     solve_second_layer(cube)
